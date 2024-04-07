@@ -24,7 +24,6 @@ def calculate_missing_data_info(data):
                                                      'Existing Count': [total_data],
                                                      'Missing Count': [missing_values[column]]})], 
                                        ignore_index=True)
-
     return missing_data_info
 
 def replace_missing_categorical(data, missing_data_info):
